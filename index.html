@@ -1,0 +1,631 @@
+
+
+
+<!DOCTYPE html> 
+<html lang="en">
+     <head>
+         <meta charset="UTF-8"> 
+         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+         <title>ShikshaSathi - Your AI Study & Wellness Companion</title>
+          <script src="https://cdn.tailwindcss.com"></script>
+           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+            <style> .gradient-bg { background: linear-gradient(135deg, #e0f7fa 0%, #b2ebf2 50%, #80deea 100%); } 
+            .feature-card:hover { transform: translateY(-5px); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1); } 
+            .breathing-animation { animation: breathe 6s infinite ease-in-out; } @keyframes breathe { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.05); } }
+             </style>
+              </head>
+               <body class="font-sans antialiased text-gray-800">
+                 <!-- Navigation -->
+                   <nav class="bg-white shadow-sm"> 
+                    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                         <div class="flex justify-between h-16">
+                             <div class="flex items-center"> 
+                                <div class="flex-shrink-0 flex items-center"> 
+                                    <img src="logo.png" alt="ShikshaSathi logo featuring an open book with a heart-shaped bookmark and AI circuit pattern overlay in soft blue and teal colors" class="h-8 w-8 rounded-full">
+                                     <span class="ml-2 text-xl font-bold text-cyan-600">ShikshaSathi</span> 
+                                    </div>
+                                 </div> 
+                                 <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
+                                     <a href="#features" class="border-cyan-500 text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">Features</a>
+                                      <a href="#planner" class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">Study Planner</a> 
+                                      <a href="#wellness" class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">Wellness</a>
+                                       <a href="#feedback" class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">Feedback Tool</a> 
+                                    </div>
+                                     <div class="hidden sm:ml-6 sm:flex sm:items-center"> 
+                                        <button class="px-4 py-2 bg-cyan-600 text-white rounded-md hover:bg-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500"> Get Started </button> 
+                                    </div>
+                                 </div> 
+                                </div>
+                             </nav><!-- Hero Section -->
+<div class="gradient-bg">
+    <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl">
+            Your AI Study & Wellness Companion
+        </h1>
+        <p class="mt-6 text-xl max-w-3xl mx-auto text-gray-700">
+            Smart scheduling, mental wellness tracking, and actionable feedback — personalized for your academic success.
+        </p>
+        <div class="mt-10 flex justify-center space-x-4">
+            <button class="px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-cyan-600 hover:bg-cyan-700 md:py-4 md:text-lg md:px-10">
+                Start Free Trial
+            </button>
+            <button class="px-8 py-3 border border-transparent text-base font-medium rounded-md text-cyan-700 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10">
+                Watch Demo
+            </button>
+        </div>
+        <div class="mt-16">
+            <img src="Main.png" alt="Dashboard mockup showing a student's weekly schedule with color-coded subjects, mood tracker with smiling face icons, and performance analytics charts with upward trending lines in blue and green" class="rounded-lg shadow-xl mx-auto border border-gray-200">
+        </div>
+    </div>
+</div>
+
+<!-- Features Overview -->
+<div id="features" class="py-12 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="lg:text-center">
+            <h2 class="text-base text-cyan-600 font-semibold tracking-wide uppercase">Features</h2>
+            <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                Everything you need for academic success
+            </p>
+            <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+                Developed by students, for students — with AI that understands your real needs.
+            </p>
+        </div>
+
+        <div class="mt-20">
+            <div class="space-y-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-8">
+                <!-- Study Planner Feature -->
+                <div class="feature-card group bg-white p-6 rounded-lg shadow-md transition-all duration-300 border border-gray-100">
+                    <div class="flex items-center justify-center h-12 w-12 rounded-md bg-cyan-50 text-cyan-600 group-hover:bg-cyan-100 transition-colors duration-300">
+                        <i class="fas fa-calendar-alt text-xl"></i>
+                    </div>
+                    <div class="mt-5">
+                        <h3 class="text-lg leading-6 font-medium text-gray-900">AI Study Planner</h3>
+                        <p class="mt-2 text-base text-gray-500">
+                            Adaptive scheduling that adjusts to your progress and priorities.
+                        </p>
+                        <div class="mt-5 bg-gray-50 p-4 rounded-md">
+                            <div class="flex items-center justify-between mb-2">
+                                <span class="text-sm font-medium text-gray-700">Today's Tasks</span>
+                                <span class="px-2 py-1 bg-cyan-100 text-cyan-800 text-xs rounded-full">2/5 completed</span>
+                            </div>
+                            <ul class="space-y-2">
+                                <li class="flex items-center">
+                                    <input type="checkbox" checked class="h-4 w-4 text-cyan-600 border-gray-300 rounded">
+                                    <span class="ml-3 text-sm text-gray-600 line-through">Math Chapter 5</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <input type="checkbox" checked class="h-4 w-4 text-cyan-600 border-gray-300 rounded">
+                                    <span class="ml-3 text-sm text-gray-600 line-through">History Revision</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <input type="checkbox" class="h-4 w-4 text-cyan-600 border-gray-300 rounded">
+                                    <span class="ml-3 text-sm text-gray-600">Chemistry Lab Report</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Wellness Tracker Feature -->
+                <div class="feature-card group bg-white p-6 rounded-lg shadow-md transition-all duration-300 border border-gray-100">
+                    <div class="flex items-center justify-center h-12 w-12 rounded-md bg-green-50 text-green-600 group-hover:bg-green-100 transition-colors duration-300">
+                        <i class="fas fa-heart text-xl"></i>
+                    </div>
+                    <div class="mt-5">
+                        <h3 class="text-lg leading-6 font-medium text-gray-900">Mental Wellness Tracker</h3>
+                        <p class="mt-2 text-base text-gray-500">
+                            Monitor your stress levels and practice mindfulness exercises.
+                        </p>
+                        <div class="mt-5 bg-gray-50 p-4 rounded-md">
+                            <div class="text-center">
+                                <h4 class="text-sm font-medium text-gray-700 mb-2">Today's Mood</h4>
+                                <div class="flex justify-center space-x-2">
+                                    <button class="text-gray-400 hover:text-yellow-400 focus:outline-none">
+                                        <i class="far fa-frown text-2xl"></i>
+                                    </button>
+                                    <button class="text-gray-400 hover:text-yellow-400 focus:outline-none">
+                                        <i class="far fa-meh text-2xl"></i>
+                                    </button>
+                                    <button class="text-yellow-400 focus:outline-none">
+                                        <i class="far fa-smile text-2xl"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <button class="mt-4 w-full flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-green-600 hover:bg-green-700">
+                                Quick Breathing Exercise
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feedback Tool Feature -->
+                <div class="feature-card group bg-white p-6 rounded-lg shadow-md transition-all duration-300 border border-gray-100">
+                    <div class="flex items-center justify-center h-12 w-12 rounded-md bg-purple-50 text-purple-600 group-hover:bg-purple-100 transition-colors duration-300">
+                        <i class="fas fa-search text-xl"></i>
+                    </div>
+                    <div class="mt-5">
+                        <h3 class="text-lg leading-6 font-medium text-gray-900">AI Exam Feedback Tool</h3>
+                        <p class="mt-2 text-base text-gray-500">
+                            Get actionable insights on your answers to improve faster.
+                        </p>
+                        <div class="mt-5 bg-gray-50 p-4 rounded-md">
+                            <div class="text-center">
+                                <div class="relative">
+                                    <div class="absolute inset-0 flex items-center" aria-hidden="true">
+                                        <div class="w-full border-t border-gray-300"></div>
+                                    </div>
+                                    <div class="relative flex justify-center">
+                                        <span class="px-2 bg-gray-50 text-sm text-gray-500">Recent Feedback</span>
+                                    </div>
+                                </div>
+                                <div class="mt-4 text-left">
+                                    <div class="text-sm font-medium text-purple-600">Physics Mock Test</div>
+                                    <p class="text-xs text-gray-500 mt-1">"Great work on calculations, but review Newton's Third Law applications."</p>
+                                </div>
+                            </div>
+                            <button class="mt-4 w-full flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-purple-600 hover:bg-purple-700">
+                                Upload New Answers
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Study Planner Deep Dive -->
+<div id="planner" class="py-16 bg-gray-50 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
+            <div>
+                <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Smart Study Scheduling
+                </h2>
+                <p class="mt-3 max-w-3xl text-lg text-gray-500">
+                    Your personal AI tutor creates and adjusts study plans based on your syllabus, exam dates, and daily available time.
+                </p>
+                
+                <div class="mt-10 space-y-10">
+                    <div class="flex">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-cyan-500 text-white">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-lg leading-6 font-medium text-gray-900">Dynamic Adaptation</h3>
+                            <p class="mt-2 text-base text-gray-500">
+                                Automatically adjusts when you complete tasks early or fall behind.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-cyan-500 text-white">
+                                <i class="fas fa-chart-pie"></i>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-lg leading-6 font-medium text-gray-900">Weak Topic Prioritization</h3>
+                            <p class="mt-2 text-base text-gray-500">
+                                Analyzes your test scores to focus more time on challenging subjects.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-12 lg:mt-0">
+                <div class="bg-white shadow-xl rounded-lg overflow-hidden">
+                    <div class="p-4 border-b border-gray-200">
+                        <h3 class="text-lg font-medium text-center text-gray-900">Your Weekly Study Plan</h3>
+                    </div>
+                    <div class="px-4 py-5 sm:p-6">
+                        <div class="grid grid-cols-7 gap-1 text-xs text-center text-gray-500">
+                            <div>S</div>
+                            <div>M</div>
+                            <div>T</div>
+                            <div>W</div>
+                            <div>T</div>
+                            <div>F</div>
+                            <div>S</div>
+                            
+                            <!-- Calendar cells with sample data -->
+                            <div class="h-16 p-1">
+                                <div class="h-full bg-gray-50 rounded"></div>
+                            </div>
+                            <div class="h-16 p-1">
+                                <div class="h-full bg-blue-50 rounded border border-blue-100 p-1">
+                                    <div class="text-xs text-blue-700">Math 2h</div>
+                                    <div class="text-xs text-blue-700">Science 1h</div>
+                                </div>
+                            </div>
+                            <div class="h-16 p-1">
+                                <div class="h-full bg-purple-50 rounded border border-purple-100 p-1">
+                                    <div class="text-xs text-purple-700">History 1.5h</div>
+                                </div>
+                            </div>
+                            <div class="h-16 p-1">
+                                <div class="h-full bg-green-50 rounded border border-green-100 p-1">
+                                    <div class="text-xs text-green-700">English 1h</div>
+                                    <div class="text-xs text-green-700">Science 1.5h</div>
+                                </div>
+                            </div>
+                            <div class="h-16 p-1">
+                                <div class="h-full bg-yellow-50 rounded border border-yellow-100 p-1">
+                                    <div class="text-xs text-yellow-700">Math 3h</div>
+                                </div>
+                            </div>
+                            <div class="h-16 p-1">
+                                <div class="h-full bg-red-50 rounded border border-red-100 p-1">
+                                    <div class="text-xs text-red-700">Revision 2h</div>
+                                </div>
+                            </div>
+                            <div class="h-16 p-1">
+                                <div class="h-full bg-gray-50 rounded p-1">
+                                    <div class="text-xs text-gray-500">Rest Day</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-6">
+                            <h4 class="text-sm font-medium text-gray-900 mb-2">Create New Schedule</h4>
+                            <div class="space-y-4">
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700">Subjects to Cover</label>
+                                    <textarea class="mt-1 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md h-20" placeholder="Math, Science, History..."></textarea>
+                                </div>
+                                <div class="grid grid-cols-2 gap-4">
+                                    <div>
+                                        <label class="block text-sm font-medium text-gray-700">Exam Date</label>
+                                        <input type="date" class="mt-1 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                                    </div>
+                                    <div>
+                                        <label class="block text-sm font-medium text-gray-700">Daily Hours</label>
+                                        <select class="mt-1 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                                            <option>1 hour</option>
+                                            <option selected>2 hours</option>
+                                            <option>3 hours</option>
+                                            <option>4+ hours</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="mt-4 w-full bg-cyan-600 border border-transparent rounded-md py-2 px-4 text-sm font-medium text-white hover:bg-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500">
+                                Generate Schedule
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Wellness Tracker Deep Dive -->
+<div id="wellness" class="py-16 bg-white overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
+            <div class="lg:order-last">
+                <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Mind & Body Wellness
+                </h2>
+                <p class="mt-3 max-w-3xl text-lg text-gray-500">
+                    Tracking academic progress is important, but not at the cost of your mental health. Our integrated tools help you stay balanced.
+                </p>
+                
+                <div class="mt-10 space-y-10">
+                    <div class="flex">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-green-500 text-white">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-lg leading-6 font-medium text-gray-900">Mood Tracking</h3>
+                            <p class="mt-2 text-base text-gray-500">
+                                Simple emoji entries let you visualize patterns between study habits and wellbeing.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-green-500 text-white">
+                                <i class="fas fa-heartbeat"></i>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-lg leading-6 font-medium text-gray-900">Guided Exercises</h3>
+                            <p class="mt-2 text-base text-gray-500">
+                                Quick meditation and breathing techniques to reduce exam stress.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-12 lg:mt-0 lg:order-first">
+                <div class="bg-white shadow-xl rounded-lg overflow-hidden border border-gray-200">
+                    <div class="p-4 border-b border-gray-200">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-lg font-medium text-gray-900">Weekly Wellness Check</h3>
+                            <span class="px-3 py-1 bg-green-100 text-green-800 text-xs rounded-full">Trending positive</span>
+                        </div>
+                    </div>
+                    <div class="px-4 py-5 sm:p-6">
+                        <!-- Mood Chart -->
+                        <div class="h-64">
+                            <img src="wellness.png" alt="Line chart showing mood trend over 7 days with peaks representing happy days and valleys showing lower mood days, color-coded green for positive and blue for neutral moods" class="h-full w-full object-contain">
+                        </div>
+                        
+                        <!-- Mood Entry -->
+                        <div class="mt-6 bg-gray-50 rounded-lg p-4">
+                            <h4 class="text-sm font-medium text-gray-900 mb-3">How are you feeling today?</h4>
+                            <div class="flex justify-around mb-3">
+                                <button class="flex flex-col items-center">
+                                    <div class="h-12 w-12 rounded-full bg-red-100 flex items-center justify-center text-red-500">
+                                        <i class="far fa-frown text-xl"></i>
+                                    </div>
+                                    <span class="mt-1 text-xs text-gray-500">Stressed</span>
+                                </button>
+                                <button class="flex flex-col items-center">
+                                    <div class="h-12 w-12 rounded-full bg-yellow-100 flex items-center justify-center text-yellow-500">
+                                        <i class="far fa-meh text-xl"></i>
+                                    </div>
+                                    <span class="mt-1 text-xs text-gray-500">Neutral</span>
+                                </button>
+                                <button class="flex flex-col items-center">
+                                    <div class="h-12 w-12 rounded-full bg-green-100 flex items-center justify-center text-green-500">
+                                        <i class="far fa-smile text-xl"></i>
+                                    </div>
+                                    <span class="mt-1 text-xs text-gray-500">Happy</span>
+                                </button>
+                            </div>
+                            <textarea class="mt-1 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md h-16" placeholder="Any notes about today? (optional)"></textarea>
+                            <button class="mt-2 w-full bg-green-600 border border-transparent rounded-md py-2 px-4 text-sm font-medium text-white hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500">
+                                Save Mood Entry
+                            </button>
+                        </div>
+                        
+                        <!-- Breathing Exercise -->
+                        <div class="mt-6 bg-indigo-50 rounded-lg p-4">
+                            <h4 class="text-sm font-medium text-indigo-900 mb-3">Quick Stress Relief</h4>
+                            <div class="flex flex-col items-center">
+                                <div class="breathing-animation h-24 w-24 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-500 mb-3">
+                                    <i class="fas fa-wind text-3xl"></i>
+                                </div>
+                                <p class="text-sm text-indigo-700 mb-3">Follow the animation - Breathe in for 4, hold for 4, out for 6</p>
+                                <button class="w-full bg-indigo-600 border border-transparent rounded-md py-2 px-4 text-sm font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                                    Start 2-Minute Exercise
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Exam Feedback Deep Dive -->
+<div id="feedback" class="py-16 bg-gray-50 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
+            <div>
+                <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Actionable Feedback
+                </h2>
+                <p class="mt-3 max-w-3xl text-lg text-gray-500">
+                    Don't just see your scores - understand exactly where you went wrong and how to improve.
+                </p>
+                
+                <div class="mt-10 space-y-10">
+                    <div class="flex">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-purple-500 text-white">
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-lg leading-6 font-medium text-gray-900">Mistake Analysis</h3>
+                            <p class="mt-2 text-base text-gray-500">
+                                AI identifies patterns in your errors to address root comprehension issues.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-purple-500 text-white">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-lg leading-6 font-medium text-gray-900">Targeted Practice</h3>
+                            <p class="mt-2 text-base text-gray-500">
+                                Get customized practice questions focusing on your weak areas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-12 lg:mt-0">
+                <div class="bg-white shadow-xl rounded-lg overflow-hidden border border-gray-200">
+                    <div class="p-4 border-b border-gray-200">
+                        <h3 class="text-lg font-medium text-gray-900">Exam Feedback Tool</h3>
+                    </div>
+                    <div class="px-4 py-5 sm:p-6">
+                        <!-- Upload Area -->
+                        <div class="border-2 border-dashed border-gray-300 rounded-lg p-8 text-center">
+                            <div class="text-center">
+                                <i class="fas fa-upload text-4xl text-purple-500"></i>
+                                <h4 class="mt-2 text-sm font-medium text-gray-900">Upload answer sheets or type answers</h4>
+                                <p class="mt-1 text-sm text-gray-500">Supports photos (JPG, PNG) or text entry</p>
+                            </div>
+                            <div class="mt-4">
+                                <button class="bg-purple-100 text-purple-700 px-4 py-2 rounded-md text-sm font-medium hover:bg-purple-200">
+                                    Select Files
+                                </button>
+                                <p class="mt-2 text-xs text-gray-500">or drag and drop files here</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Sample Feedback -->
+                        <div class="mt-6">
+                            <h4 class="text-sm font-medium text-gray-900 mb-3">Recent Feedback Examples</h4>
+                            <div class="space-y-4">
+                                <div class="border-l-4 border-purple-500 pl-4 py-2">
+                                    <div class="text-sm font-medium text-purple-700 flex justify-between">
+                                        <span>Physics - Question 3</span>
+                                        <span class="text-xs bg-purple-100 text-purple-800 px-2 py-1 rounded">Concept Error</span>
+                                    </div>
+                                    <p class="mt-1 text-xs text-gray-600">You applied the right formula but used incorrect units. Remember to always convert to SI units first.</p>
+                                    <div class="mt-2 flex items-center text-xs text-purple-600">
+                                        <i class="fas fa-book mr-1"></i>
+                                        <span>See similar practice problems</span>
+                                    </div>
+                                </div>
+                                <div class="border-l-4 border-blue-500 pl-4 py-2">
+                                    <div class="text-sm font-medium text-blue-700 flex justify-between">
+                                        <span>Math - Question 7</span>
+                                        <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">Calculation Mistake</span>
+                                    </div>
+                                    <p class="mt-1 text-xs text-gray-600">Correct approach but sign error in Step 3. Double-check operations when dealing with negative numbers.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="mt-6 w-full bg-purple-600 border border-transparent rounded-md py-2 px-4 text-sm font-medium text-white hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500">
+                            Get Detailed Feedback
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Testimonials -->
+<div class="py-16 bg-white overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="lg:text-center">
+            <h2 class="text-base text-cyan-600 font-semibold tracking-wide uppercase">Testimonials</h2>
+            <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                What students are saying
+            </p>
+        </div>
+        <div class="mt-10">
+            <div class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+                <div class="relative p-6 bg-gray-50 rounded-lg">
+                    <div class="absolute -top-5 -left-5">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-full bg-cyan-500 text-white">
+                            <i class="fas fa-quote-left text-xl"></i>
+                        </div>
+                    </div>
+                    <p class="relative text-base text-gray-700 mb-4">
+                        "ShikshaSathi helped me go from failing physics to topping my class. The feedback tool showed me exactly where I needed to improve, and the study planner kept me on track without feeling overwhelmed."
+                    </p>
+                    <div class="relative flex items-center">
+                        <img class="h-10 w-10 rounded-full" src="Testi1.png" alt="Portrait of Riya K., a university student from Delhi with black hair in a ponytail, smiling confidently while holding a physics textbook">
+                        <div class="ml-3">
+                            <p class="text-sm font-medium text-gray-900">Riya K.</p>
+                            <p class="text-sm text-gray-500">University Student, Delhi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative p-6 bg-gray-50 rounded-lg">
+                    <div class="absolute -top-5 -left-5">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-full bg-green-500 text-white">
+                            <i class="fas fa-quote-left text-xl"></i>
+                        </div>
+                    </div>
+                    <p class="relative text-base text-gray-700 mb-4">
+                        "I used to have panic attacks before exams. The breathing exercises and mood tracking helped me understand and manage my stress. Now I actually look forward to studying with this app!"
+                    </p>
+                    <div class="relative flex items-center">
+                        <img class="h-10 w-10 rounded-full" src="Testi2.png" alt="Portrait of Arjun M., a high school student wearing a school uniform from Bangalore, giving a thumbs up with a relieved expression">
+                        <div class="ml-3">
+                            <p class="text-sm font-medium text-gray-900">Arjun M.</p>
+                            <p class="text-sm text-gray-500">High School Student, Bangalore</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- CTA Section -->
+<div class="gradient-bg">
+    <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
+        <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+            <span class="block">Ready to transform your study habits?</span>
+            <span class="block text-cyan-700">Start your free trial today.</span>
+        </h2>
+        <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+            <div class="inline-flex rounded-md shadow">
+                <a href="#" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-cyan-600 hover:bg-cyan-700">
+                    Get started
+                </a>
+            </div>
+            <div class="ml-3 inline-flex rounded-md shadow">
+                <a href="#" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-cyan-600 bg-white hover:bg-cyan-50">
+                    Learn more
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-white">
+    <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
+        <nav class="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
+            <div class="px-5 py-2">
+                <a href="#" class="text-base text-gray-500 hover:text-gray-900">About</a>
+            </div>
+            <div class="px-5 py-2">
+                <a href="#" class="text-base text-gray-500 hover:text-gray-900">Features</a>
+            </div>
+            <div class="px-5 py-2">
+                <a href="#" class="text-base text-gray-500 hover:text-gray-900">Pricing</a>
+            </div>
+            <div class="px-5 py-2">
+                <a href="#" class="text-base text-gray-500 hover:text-gray-900">Testimonials</a>
+            </div>
+            <div class="px-5 py-2">
+                <a href="#" class="text-base text-gray-500 hover:text-gray-900">Blog</a>
+            </div>
+            <div class="px-5 py-2">
+                <a href="#" class="text-base text-gray-500 hover:text-gray-900">Contact</a>
+            </div>
+        </nav>
+        <div class="mt-8 flex justify-center space-x-6">
+            <a href="#" class="text-gray-400 hover:text-gray-500">
+                <span class="sr-only">Facebook</span>
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-gray-500">
+                <span class="sr-only">Instagram</span>
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-gray-500">
+                <span class="sr-only">Twitter</span>
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-gray-500">
+                <span class="sr-only">YouTube</span>
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+        <p class="mt-8 text-center text-base text-gray-500">
+            &copy; 2023 ShikshaSathi. All rights reserved.
+        </p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
